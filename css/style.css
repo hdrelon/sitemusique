@@ -1,0 +1,74 @@
+body{
+    background-color:black;
+    color:red;
+}
+.nav-color{
+    color:rgb(245, 10, 10);
+    width:50%;
+}
+section{
+    color: white;
+}
+@font-face {
+    font-family: "TheDark";
+    src: url("../fonts/TheDark.ttf") format('truetype'); 
+}
+@font-face {
+    font-family: "HARD_ROCK";
+    src: url("../fonts/HARD_ROCK.ttf") format('truetype'); 
+}
+@font-face {
+    font-family: "rocknroll_typo_crazy";
+    src: url("../fonts/rocknroll_typo_crazy.ttf") format('truetype'); 
+}
+
+nav, h3, input, label, button{
+    font-family: "TheDark",sans-serif;
+}
+h5{
+    font-family: "HARD_ROCK",sans-serif;
+}
+.fixe{
+position: fixed;
+    top:0;
+}
+.size{
+    height: 200px;
+    width: auto;
+    border-color: white;
+    margin: 2px;
+}
+p{
+    color:black;
+}
+h5{
+    color:red;
+}
+.red{
+    color:red;
+}
+.white{
+    color:white;
+}
+.index{
+    z-index: 1;
+}
+.listen{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+.listen:hover{
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+.nav-item:hover{
+    color: black;
+}
+@media screen and (max-width: 640px) {
+
+
+
+
+}
